@@ -87,7 +87,7 @@ rule eYARA_Suspsected_Phishing_01 : phishing
         ) 
         and
         (
-          any of ($body*
+          any of ($body*)
         )
 }
 ```
